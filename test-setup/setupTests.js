@@ -18,4 +18,4 @@ afterAll(() => {
   mockServer.close();
 });
 
-//Object.defineProperty(window, "scrollTo", { value: () => {} });
+Object.defineProperty(window, "scrollTo", { value: () => {} });
